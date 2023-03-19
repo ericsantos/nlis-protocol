@@ -1,5 +1,5 @@
 # NLIS Protocol Overview
-### v1.0.0
+### v0.9.0
 
 The Natural Language Interface Specification (NLIS) is a protocol designed to describe user interfaces in a simple, structured, and human-readable format. The primary goal of NLIS is to facilitate the communication between developers, designers, and AI systems during the design and development process of user interfaces.
 
