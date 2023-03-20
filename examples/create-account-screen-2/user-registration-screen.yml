@@ -1,0 +1,28 @@
+metadata:
+id: UserRegistration
+type: Screen
+name: User Registration
+description: A user registration screen with a form for entering user details.
+
+layout:
+- type: Header
+  description: A header with the application's logo and title.
+  visual_description: A centered header containing the application's logo and title.
+
+- type: Component(id=UserRegistrationForm)
+  description: User registration form.
+  visual_description: A user registration form centered in the middle of the screen.
+
+- type: Footer
+  description: A footer containing copyright information and useful links.
+  visual_description: A simple footer placed at the bottom of the screen.
+
+events:
+- type: Event
+  description: When the user submits the form, client-side validation is performed to ensure all fields are filled and the email address is valid.
+- type: Event
+  description: If the validation is successful, the form data is sent to the server for further processing.
+- type: Event
+  description: If server-side validation passes, the user is registered and redirected to the login page.
+- type: Event
+  description: In case of validation errors or other issues, an error message is displayed to the user.

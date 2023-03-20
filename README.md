@@ -17,7 +17,7 @@ The Natural Language Interface Specification (NLIS) Protocol is a language-agnos
 To understand the NLIS protocol, it's best to start by reviewing the [NLIS documentation](documentation.md) . This document provides an in-depth explanation of the protocol, its various components, and examples.
 ## Example
 
-An example NLIS specification can be found in the [example folder](/example)  of this repository. This example demonstrates a simple login screen described using the NLIS protocol.
+An example NLIS specification can be found in the [example folder](/examples)  of this repository. This example demonstrates a simple login screen described using the NLIS protocol.
 ## Specification
 
 The NLIS specification is divided into three main sections: 
